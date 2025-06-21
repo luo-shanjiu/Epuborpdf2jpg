@@ -1,0 +1,7 @@
+1.选择对应版本
+          已安装poppler-->without poppler
+          未安装poppler-->with poppler
+2.将tkick.exe复制进漫画根目录
+3.双击运行
+4.“show all”展示所有章节
+5.  ”change“开始转换

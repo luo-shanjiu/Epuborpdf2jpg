@@ -1,0 +1,6 @@
+1. Select the corresponding versionInstalled poppler --> without poppler
+Not installed poppler --> with poppler
+2. Copy tkick.exe into the root directory of the comics
+3. Double-click to run
+4. "show all" displays all chapters
+5. "change" starts the conversion

@@ -1,0 +1,48 @@
+1. Install Poppler for Windows
+2. Copy tooltee.by into the comic root folder
+3. Install the necessary library pdf2image PIL zipfile shutil re os
+4. Run. py in administrator mode
+5. Slow PDF conversion
+
+-.py
+-1.pdf
+Read current folder -->PDF import list -->Corresponding generated folder -->Corresponding to JPG conversion
+
+
+-.py
+-1
+-1.pdf
+-2.pdf
+-2
+-3.pdf
+-4.pdf
+Read current folder -->Read subordinate folders in sequence -->PDF import list -->Corresponding generated folder -->Corresponding to JPG conversion
+
+
+-.py
+-1.epub
+Read current folder -->EPUB import list -->Corresponding generated folder -->Corresponding to JPG conversion
+
+
+-.py
+-1
+-1.epub
+-2.epub
+-2
+-3.epub
+-4.epub
+Read current folder -->Read subordinate folders in sequence -->EPUB import list -->Corresponding generated folder -->Corresponding to JPG conversion
+
+
+
+
+-.py
+-1
+-1-1.jpg
+-1-2.jpg
+…. .
+-2
+-2-1.jpg
+-2-1.jpg
+…. .
+
