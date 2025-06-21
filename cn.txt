@@ -1,0 +1,49 @@
+1.安装poppler for windows
+2.将tooltee.py复制进漫画根文件夹
+3.安装必要库 pdf2image  PIL  zipfile shutil re os
+4.以管理员模式运行.py
+5.转换pdf时较慢
+
+
+-.py
+-1.pdf
+读取当前文件夹-->PDF导入列表-->对应生成文件夹-->对应转JPG
+
+
+-.py
+-1
+     -1.pdf
+     -2.pdf
+-2
+     -3.pdf
+     -4.pdf
+读取当前文件夹-->依次读取下级文件夹-->PDF导入列表-->对应生成文件夹-->对应转JPG
+
+
+-.py
+-1.epub
+读取当前文件夹-->epub导入列表-->对应生成文件夹-->对应转JPG
+
+
+-.py
+-1
+    -1.epub
+    -2.epub
+-2
+    -3.epub
+    -4.epub
+读取当前文件夹-->依次读取下级文件夹-->epub导入列表-->对应生成文件夹-->对应转JPG
+
+
+
+
+-.py
+-1
+     -1-1.jpg
+     -1-2.jpg
+     …..
+-2
+     -2-1.jpg
+     -2-1.jpg
+     …..
+
